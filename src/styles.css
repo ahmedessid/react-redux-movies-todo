@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  ._parent {
+    width: 500px;
+  }
+}
+
+body {
+  background: url(../images/bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.toastStyle {
+  background-color: whitesmoke !important;
+  color: grey !important;
+  box-shadow: none !important;
+  border: none !important;
+  display: flex !important;
+  width: 100% !important;
+}
+
+._parent {
+  margin: 20px auto;
+  height: 100%;
+  padding: 28px;
+  background: white;
+  box-shadow: 0px 0px 16px rgba(68, 68, 68, 0.15);
+  display: grid;
+  grid-gap: 16px;
+}
+
+._buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.movieTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 8px;
+}
